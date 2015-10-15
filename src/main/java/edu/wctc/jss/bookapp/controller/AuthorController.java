@@ -137,7 +137,7 @@ public class AuthorController extends HttpServlet {
     }
 
     @Override
-    public void init() throws ServletException {
+    public void init() throws ServletException{
         driverClass = getServletConfig().getInitParameter("driverClass");
         url = getServletConfig().getInitParameter("url");
         userName = getServletConfig().getInitParameter("userName");
